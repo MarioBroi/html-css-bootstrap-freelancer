@@ -25,3 +25,11 @@
 }
 
 /* #endregion Header */
+
+/* #region Main */
+
+.jumbotron {
+    background-color: var(--bsf-primary);
+}
+
+/* #endregion Main */
