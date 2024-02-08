@@ -49,3 +49,15 @@
 }
 
 /* #endregion Footer */
+
+@media screen and (min-width: 768px) {
+    .site-header {
+        .icon {
+            display: none;
+        }
+
+        .buttons-header {
+            display: block;
+        }
+    }
+}
