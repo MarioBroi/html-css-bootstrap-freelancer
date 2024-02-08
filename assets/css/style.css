@@ -16,7 +16,8 @@
 /* #region Header */
 
 .site-header {
-    background-color: var(--bsf-dark);
+    color: var(--bsf-lighter);
+    background-color: var(--bsf-darker);
 
     .buttons-header {
         display: none;
@@ -34,3 +35,17 @@
 }
 
 /* #endregion Main */
+
+/* #region Footer */
+
+.footer-top {
+    color: var(--bsf-lighter);
+    background-color: var(--bsf-dark);
+}
+
+.footer-bottom {
+    color: var(--bsf-lighter);
+    background-color: var(--bsf-darker);
+}
+
+/* #endregion Footer */
