@@ -12,3 +12,16 @@
 }
 
 /* #endregion Common */
+
+/* #region Header */
+
+.site-header {
+    background-color: var(--bsf-dark);
+
+    .buttons-header {
+        display: none;
+        /* DISPLAY ONLY IN MEDIUM AND LARGE BREAKPOINS */
+    }
+}
+
+/* #endregion Header */
