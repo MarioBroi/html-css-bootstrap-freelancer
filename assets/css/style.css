@@ -28,7 +28,8 @@
 
 /* #region Main */
 
-.jumbotron {
+.jumbotron,
+.about {
     background-color: var(--bsf-primary);
 }
 
