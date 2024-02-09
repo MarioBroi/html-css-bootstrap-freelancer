@@ -45,7 +45,13 @@
 .footer-top {
     color: var(--bsf-lighter);
     background-color: var(--bsf-dark);
+
+    .start-bootstrap {
+        color: var(--bsf-primary);
+        text-decoration: none;
+    }
 }
+
 
 .footer-bottom {
     color: var(--bsf-lighter);
@@ -53,15 +59,3 @@
 }
 
 /* #endregion Footer */
-
-@media screen and (min-width: 768px) {
-    .site-header {
-        .icon {
-            display: none;
-        }
-
-        .buttons-header {
-            display: block;
-        }
-    }
-}
