@@ -1,0 +1,78 @@
+/* #region Common */
+
+:root {
+    --bsf-darker: rgba(44, 62, 80, 1);
+    --bsf-dark: rgba(58, 84, 109, 1);
+    --bsf-primary: rgba(26, 188, 156, 1);
+    --bsf-lighter: rgba(255, 255, 255, 1);
+    --bsf-icon: rgba(132, 133, 134, 1);
+}
+
+/* #endregion Common */
+
+/* #region Header */
+
+.site-header {
+    color: var(--bsf-lighter);
+    background-color: var(--bsf-darker);
+
+    & span {
+        color: var(--bsf-icon);
+    }
+}
+
+/* #endregion Header */
+
+/* #region Main */
+
+.jumbotron,
+.about {
+    background-color: var(--bsf-primary);
+}
+
+.btn-send-bg {
+    background-color: var(--bsf-primary);
+}
+
+/* image overlay */
+
+.overlay {
+    position: absolute;
+    padding: 30%;
+    background: rgb(0, 0, 0);
+    background: rgba(185, 255, 73, 0.483);
+    color: white;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.card:hover .overlay {
+    opacity: 1;
+}
+
+/* /image overlay */
+
+/* #endregion Main */
+
+/* #region Footer */
+
+.footer-top {
+    color: var(--bsf-lighter);
+    background-color: var(--bsf-dark);
+
+    .start-bootstrap {
+        color: var(--bsf-primary);
+        text-decoration: none;
+    }
+}
+
+.footer-bottom {
+    color: var(--bsf-lighter);
+    background-color: var(--bsf-darker);
+}
+
+/* #endregion Footer */
