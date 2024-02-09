@@ -34,6 +34,10 @@
     background-color: var(--bsf-primary);
 }
 
+.btn-send-bg {
+    background-color: var(--bsf-primary);
+}
+
 /* #endregion Main */
 
 /* #region Footer */
