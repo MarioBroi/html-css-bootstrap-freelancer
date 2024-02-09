@@ -5,6 +5,7 @@
     --bsf-dark: rgba(58, 84, 109, 1);
     --bsf-primary: rgba(26, 188, 156, 1);
     --bsf-lighter: rgba(255, 255, 255, 1);
+    --bsf-icon: rgba(132, 133, 134, 1);
 }
 
 .debug * {
@@ -22,6 +23,10 @@
     .buttons-header {
         display: none;
         /* DISPLAY ONLY IN MEDIUM AND LARGE BREAKPOINS */
+    }
+
+    & span {
+        color: var(--bsf-icon);
     }
 }
 
@@ -51,7 +56,6 @@
         text-decoration: none;
     }
 }
-
 
 .footer-bottom {
     color: var(--bsf-lighter);
